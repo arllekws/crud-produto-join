@@ -183,6 +183,12 @@ http://localhost:5173
 - [x] Documentação básica com Swagger
 - [x] Teste unitário de criação de produto
 
+## 👨‍🦱 Extras Implementados
+
+- [x]  Criar mais 1 teste unitário
+- [x]  Modelagem de dados (Mermaid.JS)
+- [x]  Incluir prints no README
+
 # Como executar o projeto completo 
 
 ### 1. Suba o backend (Spring Boot).
