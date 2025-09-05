@@ -1,0 +1,51 @@
+.form {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: end;
+  margin-bottom: 24px;
+}
+
+.fullRow {
+  grid-column: 1 / 4;
+}
+
+.label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 4px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.actions {
+  grid-column: 1 / 4;
+  display: flex;
+  gap: 8px;
+}
+
+.button {
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.buttonPrimary {
+  color-scheme: button;
+  background: #2563eb;
+  color: #fff;
+}
+
+.buttonGhost {
+  color-scheme: button;
+  background: #f3f4f6;
+  color: #111827;
+}
