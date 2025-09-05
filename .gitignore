@@ -1,0 +1,28 @@
+# Java / Maven
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+**/.mvn/timing.properties
+
+# IntelliJ / IDEA
+**/.idea/
+*.iml
+*.ipr
+*.iws
+**/out/
+
+# VS Code
+**/.vscode/
+
+# Node / Vite
+**/node_modules/
+**/dist/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Env (se usar)
+**/.env
