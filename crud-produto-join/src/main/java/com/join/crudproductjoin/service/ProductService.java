@@ -52,4 +52,6 @@ public class ProductService {
     public Page<Product> list(Pageable pageable) {
         return repo.findAll(pageable);
     }
+
+
 }

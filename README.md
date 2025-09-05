@@ -29,7 +29,6 @@ Este projeto é um **CRUD de Produtos** desenvolvido como aplicação **fullstac
 
 ### Modelagem de dados: 
 
-![Image](https://github.com/user-attachments/assets/bb4eb086-fdc4-40c6-891c-90db94eaf950)
 <img width="2561" height="3840" alt="Image" src="https://github.com/user-attachments/assets/f2675a5e-23c9-49fd-8066-90f66cd257d9" />
 ---
 
@@ -109,6 +108,7 @@ Senha: (em branco)
 ``` bash
 http://localhost:8080/swagger-ui.html
 ```
+<img width="1492" height="738" alt="Image" src="https://github.com/user-attachments/assets/d99c5f95-9140-483d-aa0c-752b202e60ff" />
 
 ## 🖥️ Front-End (React)
 

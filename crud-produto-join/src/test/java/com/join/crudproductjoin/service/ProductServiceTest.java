@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import java.math.BigDecimal;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
@@ -26,5 +27,17 @@ class ProductServiceTest {
 
         assertNotNull(result.getId());
         assertEquals("Café", result.getName());
+    }
+
+    @Test
+    void create_deveLancarExcecaoQuandoNomeForNulo() {
+        ProductRepository repo = Mockito.mock(ProductRepository.class);
+        ProductService service = new ProductService(repo);
+
+        Product toSave = new Product(null, null, new BigDecimal("10.50"), 5, "Pacote 500g");
+
+        assertThrows(Exception.class, () -> {
+            service.create(toSave);
+        });
     }
 }
