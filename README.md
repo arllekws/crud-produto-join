@@ -27,7 +27,7 @@ Este projeto é um **CRUD de Produtos** desenvolvido como aplicação **fullstac
 ## 🗂️ Estrutura do Projeto
 
 
-### Modelagem de dados: 
+### Modelagem de dados: (Com Projeções Futuras)
 
 <img width="2561" height="3840" alt="Image" src="https://github.com/user-attachments/assets/f2675a5e-23c9-49fd-8066-90f66cd257d9" />
 ---
