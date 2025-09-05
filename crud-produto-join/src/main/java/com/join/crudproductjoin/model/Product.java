@@ -12,16 +12,17 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank
-    @Size(max = 120)
+    @NotBlank(message = "O nome do produto é obrigatório")
+    @Size(max = 120, message = "O nome não pode ter mais que 120 caracteres")
     private String name;
 
-    @NotNull
-    @DecimalMin(value = "0.0", inclusive = true)
+    @NotNull(message = "O preço é obrigatório")
+    @DecimalMin(value = "0.0", inclusive = false, message = "O preço deve ser maior que zero")
     private BigDecimal price;
 
-    @NotNull
-    @Min(0)
+
+    @NotNull(message = "A quantidade é obrigatória")
+    @Min(value = 1, message = "A quantidade deve ser no mínimo 1")
     private Integer quantity;
 
     @Size(max = 255)
